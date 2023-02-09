@@ -1,5 +1,6 @@
 import React from 'react';
 import {SubHeading} from '../../components';
+import headfod from './headfood.jpg'
 import './Header.css';
 
 const Header = () => (
@@ -11,7 +12,7 @@ const Header = () => (
       <button type="buton" className="custom__button">Explore Menu</button>   
     </div>
     <div className="app__wrapper_img">
-
+      <img src={headfod} alt="header img" />
     </div>
   </div>
 );
